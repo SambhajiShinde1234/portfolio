@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@300.400;500;600&family=Roboto:wght@700&display=swap');
+
+
+:root {
+    --button-color: #92E3A9;
+    --button-hover-color: #73e393;
+    --heading-color: #333333;
+    --paragraph-color: #757575;
+}
+
+h2, p {
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid green;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    padding: 80px 0;
+    height: 75vh;
+}

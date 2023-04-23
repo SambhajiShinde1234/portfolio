@@ -1,3 +1,49 @@
-body {
-     color: aquamarine
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@400;500;600&family=Roboto:wght@700&display=swap');
+
+:root {
+     --button-color: #92E3A9;
+     --button-hover-color: #73e393;
+     --link-hover-color: #92E3A9;
+     --backgrounf-color: #FAF8F1;
+     --navbar-links-color: #000000;
+ }
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'poppins', sans-serif;
+     background-color: var(--backgrounf-color);
 }
+
+.header {
+     /* border: 2px solid red; */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 70%;
+     height: 70px;
+     margin: auto;
+     color: var(--navbar-links-color);
+     font-weight: 500;
+     font-size: 18px;
+}
+
+li {
+     list-style: none;
+}
+
+.links ul {
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+}
+
+.link {
+     text-decoration: none;
+}
+
+.active {
+     color: var(--link-hover-color);
+}
+

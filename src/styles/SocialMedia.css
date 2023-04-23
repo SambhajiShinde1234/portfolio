@@ -1,0 +1,18 @@
+:root {
+    --container-color: #92E3A9;
+    --links-hover-color: #73e393;
+    --link-hover-color: #92E3A9;
+}
+
+.social-media-container {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    position: fixed;
+    bottom: 50%;
+    outline: 2px solid var(--container-color);
+    padding: 10px 10px;
+}
+
