@@ -1,29 +1,28 @@
 import React from 'react';
-import sambhajiPhoto from "../images/sambhaji.jpg";
+import AboutSambhajiPhoto from "../images/about-sambhaji-photo1.jpg";
 import "../styles/About.css";
 
 function About() {
   return (
     <>
       <h2>About Me </h2>
-      <p> Introduction </p>
+      <p className='introduction'> Introduction </p>
       <div className='about-section'>
 
-        <div className='left-section'>
-          <img src={sambhajiPhoto} alt='Myphoto' className="sambhaji-photo" />
+        <div className='about-left-section'>
+          <img src={AboutSambhajiPhoto} alt='Myphoto' className='about-sambhaji-photo' />
         </div>
 
-        <div className='right-section'>
-          <p>
-          Hello, I am Rijvan Juneja from Bhavnagar. 
-          I am currently pursuing B.E. in Information Technology at Gyanmanjari Institute of Technology College. <br />
-          My professional skills include web development in HTML, CSS, and JavaScript, and I have basic knowledge <br />
-          of Node.js and React.js. In addition, I joined PW Full Stack Development Course where I learned about the <br />
-          latest technologies. I like to build reliable, easy-to-understand, and fast software. Now I am looking for<br />
-          a full-stack development internship or job opportunity. I am very interested in the latest technologies <br />
+        <div className='about-right-section'>
+          <p className='about-paragraph'>
+          <strong>Hello,</strong> I am Sambhaji Shinde from Pune. <br />
+          I am currently pursuing Master of Computer Apllication (MCA) from Institute of Management and Career Courses, Pune (IMCC).<br/><br/> 
+          I have honed my skills in web development which includes technologies like HTML, CSS, JavaScript & WordPress and I have basic knowledge 
+          of Node.js and React.js. I like to build interactive, easy-to-navigate & User-freindly UI's. <br/><br/>Now I am looking for
+          a Front-end development internship or job opportunity. I am very interested in the latest technologies
           like React and Node.js.
           </p>
-          <button> Download Resume </button>
+          <button> Download CV </button>
 
         </div>
 

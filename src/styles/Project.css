@@ -1,0 +1,37 @@
+:root {
+    --border-radius: 1rem;
+}
+
+.project-sub-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-left-section {
+    border: 2px solid red;
+    border-radius: var(--border-radius);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    border: 2px solid rgba(105, 216, 126, 0.3);
+    height: 30vh;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+}
+.card-container:hover {
+    box-shadow: 0 0 0 2px rgba(105, 216, 126, 0.3);
+
+}
+.project-right-section {
+    line-height: 2.5rem;
+}
+span{
+    border: 1px solid red;
+    padding: .1rem;
+    border-radius: .25rem;
+}

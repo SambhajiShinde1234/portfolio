@@ -14,5 +14,11 @@
     bottom: 50%;
     outline: 2px solid var(--container-color);
     padding: 10px 10px;
+    box-shadow: 0 0 0 3px rgba(105, 216, 126, 0.3);
+
 }
 
+.social-media-container:hover {
+    box-shadow: 0 0 0 5px rgba(105, 216, 126, 0.3);
+    cursor: pointer;
+}
