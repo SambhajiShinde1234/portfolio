@@ -1,15 +1,17 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+// import { useNavigate } from "react-router-dom"
 import "../styles/Home.css";
 import sambhajiPhoto from "../images/sambhaji.jpg";
+import WhatsAppChat from "../images/WhatsAppButtonGreenSmall.png";
 
 function Home() {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const goToContact = () => {
-    navigate('/contacts');
-  }
+  // const goToContact = () => {
+  //   navigate('/contacts');
+  // }
 
   return (
     <>
@@ -24,7 +26,10 @@ function Home() {
             I am currently last year student of MCA.<br />
             Looking for internship or full-time job as developer.
           </p>
-          <button onClick={goToContact}>Send Hi...👋</button>
+          <NavLink aria-label="Chat on WhatsApp" to="https://wa.me/919699828358"> 
+          <img alt="Chat on WhatsApp" src={ WhatsAppChat } style={{width: '12rem'}}/>
+          </NavLink>
+          {/* <button onClick={goToContact}>Send Hi...👋</button> */}
         </div>
 
         <div className="right-section">

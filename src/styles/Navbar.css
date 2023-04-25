@@ -43,6 +43,14 @@ li {
      text-decoration: none;
 }
 
+#logo {
+     box-shadow: 10px 5px 0px 5px rgba(105, 216, 185, 0.3);
+     outline: 3px solid rgba(105, 216, 185, 0.3);
+     border-radius: .1rem;
+     padding: .1rem;
+     letter-spacing: 2px;
+}
+
 .active {
      color: var(--link-hover-color);
 }

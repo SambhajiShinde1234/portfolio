@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutSambhajiPhoto from "../images/about-sambhaji-photo1.jpg";
+import SambhajiShindeCV from "../pdf-files/Sambhaji-shinde-CV.pdf";
 import "../styles/About.css";
 
 function About() {
@@ -22,7 +23,9 @@ function About() {
           a Front-end development internship or job opportunity. I am very interested in the latest technologies
           like React and Node.js.
           </p>
-          <button> Download CV </button>
+          <a href= { SambhajiShindeCV } download="Sambhaji-shinde-CV">
+            <button> Download CV</button>
+          </a>
 
         </div>
 

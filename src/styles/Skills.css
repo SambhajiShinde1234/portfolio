@@ -4,3 +4,52 @@
     text-align: center;
     margin-bottom: 2rem;
 }
+
+.skills-outer-card-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 0;
+}
+
+.frontend-card {
+    outline: 2px solid #92E3A9;
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    border-radius: 1rem;
+}
+
+.frontend-card:hover {
+    box-shadow: 0 0 0 3px rgba(105, 216, 126, 0.3);
+
+}
+
+.front-end-skills {
+    font-weight: 600;
+}
+
+
+.skills-box{
+    /* border: 2px solid rgb(18, 15, 191); */
+    text-align: left;
+
+}
+
+.skills-box:nth-child(1) {
+    grid-column: 1 / 3; 
+    text-align: center;
+
+}
+
+.front-end-skills {
+    display: flex;
+    justify-content: center;
+    gap: .75rem;
+}

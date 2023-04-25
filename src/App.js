@@ -25,9 +25,7 @@ function App() {
         <Route exact path='/project' Component = { Project } />
         <Route exact path='/contacts' Component={ Contacts } />
         <Route exact path='/education' Component={ Education } />
-
         <Route exact path='*' Component={ Home } />
-
       </Routes>
     </>
   );

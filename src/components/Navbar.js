@@ -8,13 +8,13 @@ function Navbar() {
       <div className="header">
 
         <div className="logo">
-          <NavLink to={"/Home"} className="link">Sambhaji Shinde</NavLink>
+          <NavLink to={"/Home"} className="link" id='logo'>Sambhaji Shinde</NavLink>
         </div>
 
         <div className="links">
           <ul>
             <li>
-              <NavLink to={"/"} className="link"> Home </NavLink>
+              <NavLink to={"/Home"} className="link"> Home </NavLink>
             </li>
             <li>
               <NavLink to={"/about"} className="link"> About </NavLink>
@@ -22,9 +22,9 @@ function Navbar() {
             <li>
               <NavLink to={"/qualification"} className="link"> Qualification </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to={"/project"} className="link"> Project </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to={"/skills"} className="link"> Skills </NavLink>
             </li>

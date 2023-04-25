@@ -13,7 +13,7 @@ function Project() {
       <div className='project-right-section'>
         <strong><p> {ProjectCardItems.title }</p></strong>
         <p>Live link - { ProjectCardItems.siteUrl }</p>
-        <p>Used technologies - <span> { ProjectCardItems.technology } </span></p>
+        <p>Used technologies - <span className='used-technology'> { ProjectCardItems.technology } </span></p>
       </div>
     </div>
     </>
