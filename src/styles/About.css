@@ -4,7 +4,7 @@
   --button-color: #92e3a9;
   --button-hover-color: #73e393;
   --heading-color: #333333;
-  --paragraph-color: #757575;
+  --paragraph-color: ##333333;
 }
 
 /* ----------------- About - body -------------- */
@@ -36,6 +36,8 @@ h2 {
   margin-top: 20px;
   height: 75vh;
   gap: 5rem;
+  margin-bottom: 5rem;
+
 }
 
 .about-right-section {
@@ -57,11 +59,11 @@ h2 {
 .download-button {
   display: inline-block;
   padding: .5rem;
-  /* border-radius: 0.5rem; */
-  background-color: #92e3a9;
+  background-color: #25D366;
   font-size: 1rem;
   font-weight: 400;
 }
+
 .download-button:hover {
   cursor: pointer;
   margin-bottom: 5rem;
@@ -70,6 +72,29 @@ h2 {
 }
 /* ----------------- Tablet responsive  -------------- */
 
+@media screen and (max-width: 768px) {
+  
+  .about-section {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  gap: 3rem;
+}
+
+.about-sambhaji-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 70%;
+  border-radius: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
 /* ----------------- Mobile responsive  -------------- */
 
 @media screen and (max-width: 480px) {
@@ -94,11 +119,8 @@ h2 {
   }
 
   .download-button {
-    outline: 2px solid #000;
-    /* border-radius: 0.5rem; */
     padding: 0.5rem;
-    text-decoration: none;
-    background-color: #92e3a9;
+    background-color: #25D366;
     color: #000;
     font-weight: 400;
   }

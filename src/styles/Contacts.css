@@ -22,7 +22,7 @@
   width: 25%;
   display: inline-flex;
   flex-direction: column;
-  outline: 2px solid #92e3a9;
+  outline: 5px solid #25D366;
   border-radius: 0.75rem;
   padding: 1rem;
   justify-content: center;
@@ -40,6 +40,21 @@
 
 /* ---------------- Tablet responsive ---------------- */
 
+@media screen and (max-width: 768px) {
+
+  .contacts-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7rem;
+    height: 100%;
+    width: 70%;
+
+  }
+  .contact-card {
+    width: 70%;
+  }
+}
+
 /* ---------------- Mobile responsive ---------------- */
 
 @media screen and (max-width: 480px) {
@@ -49,7 +64,7 @@
 
   .contacts-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 7rem;
     height: 100%;
   }

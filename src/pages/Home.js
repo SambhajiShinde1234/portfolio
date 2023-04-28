@@ -11,8 +11,9 @@ function Home() {
     <>
       <div className="home-section">
         <div className="left-section">
-          <h1 className="h1-heading"> Sambhaji Shinde </h1>
-          <p className="sub-heading"> Front-end Developer 💻</p>
+        
+          <h1 className="h1-heading heading-center">Hy! 👋 I Am <br /> Sambhaji Shinde </h1>
+          <p className="sub-heading heading-center"> Front-end Developer 💻</p>
           <p className="paragraph">
             <strong>Hello folks,</strong> i am learning React to become
             front-end developer
@@ -30,6 +31,7 @@ function Home() {
               alt="Chat on WhatsApp"
               src={WhatsAppChat}
               style={{ width: "12rem" }}
+              className="whatsapp"
             />
           </NavLink>
         </div>
