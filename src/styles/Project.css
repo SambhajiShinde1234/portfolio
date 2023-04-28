@@ -1,39 +1,133 @@
 :root {
-    --border-radius: 1rem;
+  --border-radius: 1rem;
+}
+
+/* ----------------- Project- body ---------------- */
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 5rem;
+  height: 100%;
+  padding: 2rem;
+  border-radius: var(--border-radius);
 }
 
 .project-sub-heading {
-    text-align: center;
-    margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
 }
 
 .project-left-section {
-    outline: 2px solid #92E3A9;
-    border-radius: var(--border-radius);
+  outline: 2px solid #92e3a9;
+  border-radius: var(--border-radius);
 }
 
-.card-container {
+.project-image {
+  height: 30vh;
+  width: 30vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .card-container:hover {
+    box-shadow: 0 0 0 3px rgba(105, 216, 126, 0.3);
+} */
+
+/* .project-right-section {
+    line-height: 4rem;
+} */
+
+.used-technology {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.btn-div {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn-code,
+.btn-demo {
+  outline: 2px solid #000;
+  /* border-radius: 0.5rem; */
+  padding: 0.5rem;
+  text-decoration: none;
+  background-color: #92e3a9;
+  color: #000;
+  font-weight: 400;
+}
+
+.btn-code:hover,
+.btn-demo:hover {
+  background-color: #74e594;
+}
+
+/* ----------------- Tablet responsive ---------------- */
+
+/* ----------------- Mobile responsive ---------------- */
+
+@media screen and (max-width: 480px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    border-radius: var(--border-radius);
+    padding: 0;
+  }
+
+  .project-sub-heading {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+
+  .project-image {
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+  }
+
+  .project-right-section {
+    line-height: 3rem;
+  }
+
+  .used-technology {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .btn-div {
     display: flex;
     flex-direction: row;
-    width: 70%;
-    justify-content: space-evenly;
-    margin-bottom: 5rem;
-    /* outline: 1px solid #92E3A9; */
-    height: 30vh;
-    padding: 2rem;
-    border-radius: var(--border-radius);
-}
-.card-container:hover {
-    box-shadow: 0 0 0 3px rgba(105, 216, 126, 0.3);
+    gap: 1rem;
+  }
 
+.btn-code,
+.btn-demo {
+  width: 100%;
+  padding: 0rem .1rem;
+  text-align: center;
 }
-.project-right-section {
-    line-height: 2.5rem;
-}
-.used-technology {
-    /* border: 1px solid red; */
-    padding: .1rem;
-    border-radius: .25rem;
-    box-shadow: 2px 2px 3px 2px rgba(105, 216, 126, 0.3);
-
 }
