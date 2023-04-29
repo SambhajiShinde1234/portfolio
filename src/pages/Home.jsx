@@ -15,13 +15,10 @@ function Home() {
           <h1 className="h1-heading heading-center">Hy! 👋 I Am <br /> Sambhaji Shinde </h1>
           <p className="sub-heading heading-center"> Front-end Developer 💻</p>
           <p className="paragraph">
-            <strong>Hello folks,</strong> i am learning React to become
-            front-end developer
-            <br />
-            I have passion of learning new technologies <br />
-            I am currently last year student of MCA.
-            <br />
-            Looking for internship or full-time job as developer.
+            <strong>Hello folks,</strong> 
+            This is sambhaji shinde, currently pursuing my Master's in Computer Application (MCA).<br /><br />
+            I am passionate about learning new skills. Now i am exploring new technologies to become frontend developer.<br /><br />
+            <strong>Now i am actively seeking for a chance as intern or full-time job position to utilize my skills to solve real world problems.</strong>
           </p>
           <NavLink
             aria-label="Chat on WhatsApp"

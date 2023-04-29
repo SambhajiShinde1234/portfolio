@@ -7,7 +7,7 @@ const ProjectData = [
         title: 'Portfolio - react app',
         technology: 'HTML | JSX | CSS | React | JavaScript',
         imageUrl: portfolio,
-        siteUrl: "https://www.google.com",
+        siteUrl: "https://sambhaji.netlify.app/",
         codeUrl: "https://github.com/SambhajiShinde1234/portfolio",
         alternateText: "PortfolioProjectImage",
     },
@@ -16,11 +16,10 @@ const ProjectData = [
         title: 'Calculator - react app',
         technology: 'HTML | JSX | CSS | React | JavaScript',
         imageUrl: calculator,
-        siteUrl: "https://www.google.com",
+        siteUrl: "https://sambhaji-calculator.netlify.app/",
         codeUrl: "https://github.com/SambhajiShinde1234/React-Calculator-App",
         alternateText: "PortfolioProjectImage",
     },
-
 
 ]
 
