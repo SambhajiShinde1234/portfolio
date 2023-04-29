@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8b14bb73.css",
+    "main.js": "/portfolio/static/js/main.4344bcaa.js",
+    "static/media/sambhaji.jpg": "/portfolio/static/media/sambhaji.63e89a2d6085b471a6e8.jpg",
+    "static/media/about-sambhaji-photo1.jpg": "/portfolio/static/media/about-sambhaji-photo1.f187acb690ceb67a8173.jpg",
+    "static/media/project1.jpg": "/portfolio/static/media/project1.73ecb3a3dbd5682ca62f.jpg",
+    "static/media/Sambhaji-shinde-CV.pdf": "/portfolio/static/media/Sambhaji-shinde-CV.7ddaf4541423c6500a91.pdf",
+    "static/media/project2.png": "/portfolio/static/media/project2.a419b02abebe99cf0f80.png",
+    "index.html": "/portfolio/index.html",
+    "main.8b14bb73.css.map": "/portfolio/static/css/main.8b14bb73.css.map",
+    "main.4344bcaa.js.map": "/portfolio/static/js/main.4344bcaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b14bb73.css",
+    "static/js/main.4344bcaa.js"
+  ]
+}
